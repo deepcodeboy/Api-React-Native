@@ -11,7 +11,7 @@ function App() {
 
   
     const getPokemons = async () => {
-      const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=30&offset=0')
+      const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=40&offset=750')
       const listaPokemons = await response.json()
       const { results } = listaPokemons
 
